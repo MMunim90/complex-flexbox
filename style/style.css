@@ -22,3 +22,23 @@ img{
 h1{
     text-align: center;
 }
+/* Responsive Media Query */
+
+@media screen and (max-width: 725px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+    .box-collage{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* medium devices */
+
+@media screen and (min-width: 726px) and (max-width: 1250px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
